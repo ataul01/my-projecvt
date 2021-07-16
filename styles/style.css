@@ -119,14 +119,6 @@ nav li a{
  flex-wrap: wrap;
  justify-content: space-evenly;
 }
-/* .second-middle-part{
- display: flex;
- flex-wrap:wrap;
- justify-content: space-evenly;
- ju
- 
- 
-} */
 
 .photo-album{
 width: 262px;
@@ -151,4 +143,58 @@ box-shadow: 3px 3px 12px rgb(207, 216, 216);
     font-feature-settings: 'liga' off;
     color: #858585;
 
+}
+
+/* (messi drivling section css third section) */
+
+
+.messi-run{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+
+}
+.messi-article{
+    width: 450px;
+height: 100px;
+}
+.messi-article h1{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 60px;
+/* or 125% */
+
+
+color: #0A0826;
+
+}
+
+.messi-article p{
+    
+font-size: 14px;
+line-height: 28px;
+/* or 175% */
+
+
+color: #6C6C6C;
+
+}
+.messi-image{
+
+}
+.messi-image img{
+    width: 500px;
+height: 370px;
+    
+}
+
+.messi-run:hover .messi-image{
+    transform: scale(1.2) ;
+    transition: transform 2s ease-in-out;
+}
+.messi-run:hover .watch-button{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
 }
