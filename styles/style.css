@@ -202,11 +202,6 @@ height: 370px;
 
 /* last section and footer css */
 
-/* .all-lastpart{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-content: center;
-} */
 .last-part{
     display: flex;
     justify-content: center;
@@ -240,3 +235,25 @@ line-height: 24px;
 font-weight: 400;
 }
 
+
+/* Media queries */
+
+/* mobile devices */
+
+@media only screen and (max-width:688px) {
+    
+    .top-blue-coloring{
+        width: 100%;
+        height: 100%;
+    }
+    .football-kick{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+        margin-top: 67px;
+    }
+
+    nav{
+        display: none;
+    }
+}
