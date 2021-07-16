@@ -10,6 +10,7 @@ body{
     background-color: rgb(45, 37, 160);
     color: white;
     padding-top: 40px;
+    margin-bottom: 50px;
 }
 /* navigation bar css */
 nav{
@@ -102,4 +103,52 @@ nav li a{
 .football-kick:hover .watch-button{
     transform: scale(1.2);
     transition: transform 1s ease-in-out;
+}
+
+/* 2nd middle section starts */
+
+.second-middle{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+.align-three{
+    width: 80%;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+/* .second-middle-part{
+ display: flex;
+ flex-wrap:wrap;
+ justify-content: space-evenly;
+ ju
+ 
+ 
+} */
+
+.photo-album{
+width: 262px;
+height: 420px;
+padding: 12px;
+margin-bottom: 27px;
+box-shadow: 3px 3px 12px rgb(207, 216, 216);
+
+}
+.player-photo img{
+    width: 100%;
+}
+.player-detail h2{
+    color: #18191F;
+}
+.player-detail p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    font-feature-settings: 'liga' off;
+    color: #858585;
+
 }
