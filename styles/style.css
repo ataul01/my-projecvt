@@ -152,6 +152,7 @@ box-shadow: 3px 3px 12px rgb(207, 216, 216);
     display: flex;
     justify-content: space-evenly;
     margin-top: 120px;
+    margin-bottom: 100px;
 
 }
 .messi-article{
@@ -198,3 +199,44 @@ height: 370px;
     transform: scale(1.2);
     transition: transform 2s ease-in-out;
 }
+
+/* last section and footer css */
+
+/* .all-lastpart{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+} */
+.last-part{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.last-footbalimg{
+    display: flex;
+    justify-content: center;
+}
+.last-footbalimg img{
+    width: 450.87px;
+height: 100px;
+}
+.all-icon{
+    display: flex;
+    justify-content: center;
+}
+.all-icon img{
+    margin: 8px;
+    width: 28px;
+height: 28px;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+line-height: 24px;
+font-weight: 400;
+}
+
